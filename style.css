@@ -1,0 +1,30 @@
+.container{
+  clear: both;
+  overflow: auto;
+}
+
+nav {
+    float:right;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+
+.logo img {
+    float:left;
+    padding-left: 10%;
+}
+
+ul li {
+  display: inline-block; 
+  padding: 20px;
+  font-size: 20px; 
+  font-family: sans-serif;
+}
+
+.active {
+    color: rgb(71, 71, 71)
+}
+
+ul li:hover a {
+  color:orange;
+}
