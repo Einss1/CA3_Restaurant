@@ -1,17 +1,19 @@
+/* Navigation Bar */
+
 .container{
   clear: both;
   overflow: auto;
 }
 
 nav {
-    float:right;
-    padding-right: 10%;
-    padding-top: 1%;
+  float:right;
+  padding-right: 10%;
+  padding-top: 1%;
 }
 
 .logo img {
-    float:left;
-    padding-left: 10%;
+  float:left;
+  padding-left: 10%;
 }
 
 ul li {
@@ -22,9 +24,34 @@ ul li {
 }
 
 .active {
-    color: rgb(71, 71, 71)
+  color: orange;
 }
 
 ul li:hover a {
   color:orange;
 }
+
+/* Password Validator */
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+}
+
+.login {
+  width: 40%;
+}
+
+/* Random User Generator */
+
+
