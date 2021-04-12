@@ -31,27 +31,6 @@ ul li:hover a {
   color:orange;
 }
 
-/* Password Validator */
-
-input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 12px;
-  margin-bottom: 16px;
+body {
+  background: #ecf0f1;
 }
-
-input[type=submit] {
-  background-color: orange;
-  color: white;
-}
-
-.login {
-  width: 40%;
-}
-
-/* Random User Generator */
-
-

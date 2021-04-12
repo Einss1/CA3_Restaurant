@@ -1,0 +1,106 @@
+/* Navigation Bar */
+
+.container{
+    clear: both;
+    overflow: auto;
+}
+  
+nav {
+    float:right;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+  
+.logo img {
+    float:left;
+    padding-left: 10%;
+}
+  
+ul li {
+    display: inline-block; 
+    padding: 20px;
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+  
+.active {
+    color: orange;
+}
+  
+ul li:hover a {
+    color:orange;
+}
+  
+/* Random User Generator */
+  
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+  
+body {
+    background: #ecf0f1;
+}
+  
+.title {
+    color: #2c3e50;
+    font-family: "Coda", sans-serif;
+    text-align: center;
+}
+  
+.user-profile {
+    margin: auto;
+      width: 27em; 
+    height: 11em;
+    background: #fff;
+    border-radius: .3em; 
+}
+  
+.user-profile  #fullname {
+    margin: auto;
+    margin-top: -4.40em;
+    margin-left: 5.80em;
+    color: orange;
+    font-size: 1.53em;
+    font-family: "Coda", sans-serif;
+    font-weight: bold;
+}
+  
+.user-profile > .description {
+    margin: auto;
+    margin-top: 1.35em;
+    margin-right: 3em;
+    width: 18em;
+    color: #7f8c8d;
+    font-size: .87em;
+    font-family: "varela round", sans-serif;
+}
+  
+.user-profile > img#avatar {
+    padding: .7em;
+    margin-left: .3em;
+    margin-top: .3em;
+    height: 6.23em;
+    width: 6.23em;
+    border-radius: 18em;
+}
+  
+  
+.footer {
+    margin: 2em auto;
+    height: 3.70em;
+    background: orange;
+    text-align: center;
+    border-radius: 0 0 .3em .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+button {
+    color: white;
+    font-family: "Coda", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: 0;
+}
+  
