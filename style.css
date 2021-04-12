@@ -24,11 +24,11 @@ ul li {
 }
 
 .active {
-  color: orange;
+  color: rgb(116, 0, 139);
 }
 
 ul li:hover a {
-  color:orange;
+  color: rgb(116, 0, 139);
 }
 
 body {

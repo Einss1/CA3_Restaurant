@@ -28,11 +28,11 @@ body {
   }
   
   .active {
-    color: orange;
+    color: rgb(116, 0, 139);
   }
   
   ul li:hover a {
-    color:orange;
+    color: rgb(116, 0, 139);
   }
   
   /* Password Validator */
@@ -48,7 +48,7 @@ body {
   }
   
   input[type=submit] {
-    background-color: orange;
+    background-color: rgb(116, 0, 139);
     color: white;
   }
   

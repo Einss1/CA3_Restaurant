@@ -24,11 +24,11 @@ ul li {
 }
   
 .active {
-    color: orange;
+    color: rgb(116, 0, 139);
 }
   
 ul li:hover a {
-    color:orange;
+    color: rgb(116, 0, 139);
 }
   
 /* Random User Generator */
@@ -57,7 +57,7 @@ body {
     margin: auto;
     margin-top: -4.40em;
     margin-left: 5.80em;
-    color: orange;
+    color: rgb(116, 0, 139);
     font-size: 1.53em;
     font-family: "Coda", sans-serif;
     font-weight: bold;
@@ -86,7 +86,7 @@ body {
 .footer {
     margin: 2em auto;
     height: 3.70em;
-    background: orange;
+    background: rgb(116, 0, 139);
     text-align: center;
     border-radius: 0 0 .3em .3em;
     display: flex;
