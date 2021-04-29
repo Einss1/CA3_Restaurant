@@ -1,0 +1,134 @@
+/* Navigation Bar */
+
+.container{
+  clear: both;
+  overflow: auto;
+}
+
+nav {
+  float:right;
+  padding-right: 10%;
+  padding-top: 1%;
+}
+
+.logo img {
+  float:left;
+  padding-left: 10%;
+}
+
+ul li {
+  display: inline-block; 
+  padding: 20px;
+  font-size: 20px; 
+  font-family: sans-serif;
+}
+
+.active {
+  color: rgb(116, 0, 139);
+}
+
+ul li:hover a {
+  color: rgb(116, 0, 139);
+}
+
+.dark-mode {
+  background-color: rgb(0, 0, 0);
+  color: rgb(116, 0, 139);
+}
+
+button.javadark {
+  background-color: #cccccc;
+}
+
+
+
+/* Menu */
+
+.menu {
+  margin-bottom: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu_restName {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 0;
+  color: rgb(116, 0, 139);
+}
+
+.menu_title {
+  text-align: center;
+}
+
+.menu_section {
+  margin-bottom: 30px;
+}
+
+.menu_section h3 {
+  font-style: italic;
+}
+
+.menu_item {
+  margin: 0 15px;
+  position: relative;
+}
+
+.menu_item h4 {
+  margin-bottom: 0px;
+}
+
+.price {
+  display: block;
+  float: right;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 5px;
+  font-style: italic;
+  display: inline-block;
+  max-width: 50%;
+}
+
+hr {
+  border: none;
+    border-top: 1px dotted black;
+    margin-top: -20px;
+}
+
+footer:not(.app-footer) {
+  text-align: center;
+    font-size: 11px;
+  font-style: italic;
+}
+
+@media (max-width: 575px) {
+
+  .menu_title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .menu_section h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .menu_item {
+    text-align: center;
+  }
+
+  .price {
+    float: none;
+    position: static;
+    margin-top: 15px;
+  }
+  
+  hr {
+    display: none;
+  }
+}
