@@ -1,6 +1,16 @@
 /* Navigation Bar */
+.all {
+  background-image: url(../Images/background.png);
+  background-size: cover;
+}
 
-.container{
+.all1{
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.container {
   clear: both;
   overflow: auto;
 }
@@ -19,7 +29,7 @@ nav {
 ul li {
   display: inline-block; 
   padding: 20px;
-  font-size: 20px; 
+  font-size: 30px; 
   font-family: sans-serif;
 }
 
@@ -37,7 +47,13 @@ ul li:hover a {
 }
 
 button.javadark {
-  background-color: #cccccc;
+  background-image: url(../Images/darkmode.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -50,12 +66,6 @@ button.javadark {
   margin: 0 auto;
 }
 
-.menu_restName {
-  text-align: center;
-  font-size: 70px;
-  margin-top: 0;
-  color: rgb(116, 0, 139);
-}
 
 .menu_title {
   text-align: center;
@@ -102,7 +112,7 @@ hr {
 
 footer:not(.app-footer) {
   text-align: center;
-    font-size: 11px;
+    font-size: 13px;
   font-style: italic;
 }
 
@@ -131,4 +141,15 @@ footer:not(.app-footer) {
   hr {
     display: none;
   }
+}
+
+/* Footer */
+
+
+.footer1 {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: rgba(175, 177, 176, 0.63);
 }
