@@ -1,54 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}  
+.all {
+  background-image: url(../Images/background.png);
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.all1 {
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: rgba(39, 39, 39, 0.6);
+}
+
 /* Navigation Bar */
 
 .container{
-    clear: both;
-    overflow: auto;
+  clear: both;
+  overflow: auto;
   }
   
-  nav {
-    float:right;
-    padding-right: 10%;
-    padding-top: 1%;
-  }
+nav {
+  float:right;
+  padding-right: 10%;
+  padding-top: 1%;
+}
   
-  .logo img {
-    float:left;
-    padding-left: 10%;
-  }
+.logo img {
+  float:left;
+  padding-left: 10%;
+}
   
-  ul li {
-    display: inline-block; 
-    padding: 20px;
-    font-size: 20px; 
-    font-family: sans-serif;
-  }
+ul li {
+  display: inline-block; 
+  padding: 20px;
+  font-size: 30px; 
+  font-family: sans-serif;
+}
   
-  .active {
-    color: rgb(116, 0, 139);
-  }
+.active {
+  color: rgb(116, 0, 139);
+}
   
-  ul li:hover a {
-    color: rgb(116, 0, 139);
-  }
-  
+ul li:hover a {
+  color: rgb(116, 0, 139);
+}
 
-  /* Password Validator */
+/* Password Validator */
 
-  input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 12px;
-    margin-bottom: 16px;
-  }
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
   
-  input[type=submit] {
-    background-color: rgb(116, 0, 139);
-    color: white;
-  }
+input[type=submit] {
+  background-color: rgb(116, 0, 139);
+  color: white;
+}
   
-  .login {
-    width: 40%;
-  }
+.login {
+  width: 40%;
+}
