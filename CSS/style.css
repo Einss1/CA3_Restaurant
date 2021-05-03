@@ -40,11 +40,11 @@ ul li {
 }
 
 .active {
-  color: #680094
+  color: #680094;
 }
 
 ul li:hover a {
-  color: #680094
+  color: #680094;
 }
 
 .dark-mode {

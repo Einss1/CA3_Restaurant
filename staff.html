@@ -12,39 +12,135 @@
 </head>
 
 <body>
+    <div class="all">
+        <div class="all1">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/restaurant-logo.png" alt="Luan's restaurant logo" width="190" />
+                </div>
 
-    <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="menustaff.html" style="text-decoration: none;">Menu</a></li>
+                        <li><a href="staff.html" style="text-decoration: none;" class="active">Staff</a></li>
+                        <li><a href="index.html" style="text-decoration: none;">Log Off</a></li>
+                    </ul>
+                </nav>
 
-        <div class="logo">
-            <img src="images/restaurant-logo.png" alt="Luan's restaurant logo" width="150" />
+            </div>
+
+            <h1 class="title" style="color: rgb(116, 0, 139);">Customer</h1>
+            <div class="user-profile">
+                <img id="avatar">
+                <div id="fullname"></div>
+                <div class="description">
+                    <div>Email: <span id="email">#####@###.com</span></div>
+                    <div>Address: <span id="street">#### ####, ##</span></div>
+                    <div>Cell: <span id="cell">(###) ###-####</span></div>
+                </div>
+                <div class="footer">
+                    <button id="btn">Next Customer!</button>
+                </div>
+            </div> <br><br>
+
+            <script src="JavaScript/js_staff.js"></script>
+
+            <h1 class="title" style="color: rgb(116, 0, 139);">Order</h1>
+            <div>
+                <form>
+                    <div class="divTable" style="width: 30%;border: 1px solid #000;">
+                        <div class="divTableBody">
+                            <div class="divTableRow">
+                                <div class="divTableCell">Nachos - Vegetarian -</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Mini Tacos</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Mini Churros - Vegetarian -</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Steak</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Prime salad - Vegetarian -</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Ribeye</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Coke</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Milkshake</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Water</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Petit Gateau</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Carrot cake</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Ice cream</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="divTable" style="width: 30%;border: 1px solid #000;">
+                        <div class="divTableBody">
+                            <div class="divTableRow">
+                                <div class="divTableCell">Total bill</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Starters</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Main</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Dessert</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Drinks</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Vegetarian cost</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Non-vegetarian cost</div>
+                                <div class="divTableCell"><input type="number" id="quantity" name="quantity" class="size"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <br>
+                   <center><button type="button" class="button">Calculate</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
         </div>
-
-        <nav>
-            <ul>
-                <li><a href="menustaff.html" style="text-decoration: none;">Menu</a></li>
-                <li><a href="staff.html" style="text-decoration: none;" class="active">Staff</a></li>
-                <li><a href="index.html" style="text-decoration: none;">Log Off</a></li>
-            </ul>
-        </nav>
-
     </div>
-
-    <h1 class="title" style="color: black;">Customer</h1>
-    <div class="user-profile">
-        <img id="avatar">
-        <div id="fullname"></div>
-        <div class="description">
-            <div>Email: <span id="email">#####@###.com</span></div>
-            <div>Address: <span id="street">#### ####, ##</span></div>
-            <div>Cell: <span id="cell">(###) ###-####</span></div>
-        </div>
-        <div class="footer">
-            <button id="btn">Next Customer!</button>
-        </div>
-    </div> <br><br>
-
-    <script src="JavaScript/js_staff.js"></script>
-
-    <h1 class="title" style="color: black;">Order</h1>
-  
-
+</body>
