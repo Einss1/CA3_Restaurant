@@ -1,5 +1,0 @@
-https://randomuser.me/
-
-https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
-
-https://jsbeginners.com/javascript-random-user-api-project/
